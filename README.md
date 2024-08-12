@@ -9,7 +9,7 @@ Example:
 If an integer array arr is declared, all elements in arr must be integers.
 If the first element is stored at memory address 1000, the next element will be stored at 1004 (assuming an integer is 4 bytes in size).
 ### Applications:
-####v Matrix Representation: Arrays can represent data in matrix form or tabular format.
+#### Matrix Representation: Arrays can represent data in matrix form or tabular format.
 #### Data Storage: Arrays store data that will be processed, such as elements in algorithms.
 #### Implementing Other Structures: Arrays are used to implement other data structures like queues, stacks, and dynamic memory allocations like linked lists and trees.
 ### Array Operations:
