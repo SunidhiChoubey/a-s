@@ -1,5 +1,5 @@
 # EXPERIMENT-7 A
-## AIM- 
+## AIM- To study and implement c++ array.
 ## THEORY
 An array is a data structure that consists of a collection of elements, all of the same data type, stored in contiguous memory locations.
 Each element in an array is identified by an index, with the first element typically starting at index 0.
@@ -9,26 +9,26 @@ Example:
 If an integer array arr is declared, all elements in arr must be integers.
 If the first element is stored at memory address 1000, the next element will be stored at 1004 (assuming an integer is 4 bytes in size).
 ### Applications:
-Matrix Representation: Arrays can represent data in matrix form or tabular format.
-Data Storage: Arrays store data that will be processed, such as elements in algorithms.
-Implementing Other Structures: Arrays are used to implement other data structures like queues, stacks, and dynamic memory allocations like linked lists and trees.
-Array Operations:
-Traversal: Visiting each element in the array in a specific order (e.g., sequentially or in reverse).
-Insertion: Adding a new element at a specific index.
-Deletion: Removing an element from a specific index.
-Searching: Finding the index of a particular element.
-Types of Arrays:
-One-Dimensional Arrays: A single row of elements.
-Multi-Dimensional Arrays: Arrays of arrays, such as 2D arrays (matrices).
-Advantages:
-Random Access: Direct access to elements using their index, which is faster.
-Cache Locality: Arrays have better cache performance because elements are stored contiguously.
-Multiple Data Items: Arrays allow multiple data items of the same type to be stored under a single name.
-Base for Other Structures: Arrays are foundational for implementing data structures like linked lists, stacks, and queues.
-Disadvantages:
-Fixed Size: Once the size of an array is set, it cannot be changed. This limits flexibility in storage.
-Homogeneity: Arrays can only store elements of the same data type.
-Complex Insertion/Deletion: Due to contiguous memory allocation, inserting or deleting elements in an array is complex and time-consuming compared to linked lists.
+####v Matrix Representation: Arrays can represent data in matrix form or tabular format.
+#### Data Storage: Arrays store data that will be processed, such as elements in algorithms.
+#### Implementing Other Structures: Arrays are used to implement other data structures like queues, stacks, and dynamic memory allocations like linked lists and trees.
+### Array Operations:
+#### Traversal: Visiting each element in the array in a specific order (e.g., sequentially or in reverse).
+#### Insertion: Adding a new element at a specific index.
+#### Deletion: Removing an element from a specific index.
+#### Searching: Finding the index of a particular element.
+### Types of Arrays:
+#### One-Dimensional Arrays: A single row of elements.
+#### Multi-Dimensional Arrays: Arrays of arrays, such as 2D arrays (matrices).
+### Advantages:
+#### Random Access: Direct access to elements using their index, which is faster.
+#### Cache Locality: Arrays have better cache performance because elements are stored contiguously.
+#### Multiple Data Items: Arrays allow multiple data items of the same type to be stored under a single name.
+#### Base for Other Structures: Arrays are foundational for implementing data structures like linked lists, stacks, and queues.
+### Disadvantages:
+#### Fixed Size: Once the size of an array is set, it cannot be changed. This limits flexibility in storage.
+#### Homogeneity: Arrays can only store elements of the same data type.
+#### Complex Insertion/Deletion: Due to contiguous memory allocation, inserting or deleting elements in an array is complex and time-consuming compared to linked lists.
 
 ## CODES
 ~~~
@@ -142,35 +142,36 @@ int main() {
 }
 ~~~
 ## OUTPUT
-![]
+![](https://github.com/SunidhiChoubey/a-s/blob/main/Screenshot%202024-08-12%20125931.png)
+![](https://github.com/SunidhiChoubey/a-s/blob/main/Screenshot%202024-08-12%20125939.png)
 
 ## CONCLUSION
 We learnt how to implement arrays and its operations in C++ programming languages
 
 # EXPERIMENT-7 B
-## AIM
+## AIM- To study and implement c++ strings
 ## THEORY-
 A string is a data type consisting of a sequence of characters, primarily used to represent and manipulate textual data in computer programs. Strings can be modified and interacted with through various operations, such as concatenation, substring extraction, and comparison.
 
 In most programming languages, strings are treated as a distinct data type with specialized operations and properties. They can be declared and manipulated using a variety of string-related functions and methods tailored for text handling.
 
-Applications of Strings
-Data Security: Strings play a critical role in hashing and encryption, where random strings are generated to secure or encrypt data.
-Text Representation: Strings are essential for representing textual data, whether in user interfaces, documents, or files.
-Database Operations: Strings are commonly used to handle and manipulate text fields in databases.
-Web Development: Strings are key in web development for managing HTML, URLs, and user input.
-String Operations
-Finding the Length: Determine the number of characters in a string.
-Character Access: Retrieve individual characters from a string using their index positions.
-String Concatenation: Combine two strings into one.
-Appending Strings: Add text to the end of an existing string.
-Comparing Strings: Check if two strings are equal or determine their lexicographical order.
-Substring Creation: Extract a portion of a string.
-Character Search: Locate a specific character or substring within a string.
-Replacing Text: Modify a string by replacing characters or substrings with new content.
-Inserting Characters: Add characters or substrings at a specific position within a string.
-Deleting Characters: Remove characters or substrings from a string.
-C-Style String Conversion: Convert a std::string to a C-style string (character array).
+### Applications of Strings
+#### Data Security: Strings play a critical role in hashing and encryption, where random strings are generated to secure or encrypt data.
+#### Text Representation: Strings are essential for representing textual data, whether in user interfaces, documents, or files.
+#### Database Operations: Strings are commonly used to handle and manipulate text fields in databases.
+#### Web Development: Strings are key in web development for managing HTML, URLs, and user input.
+### String Operations
+#### Finding the Length: Determine the number of characters in a string.
+#### Character Access: Retrieve individual characters from a string using their index positions.
+#### String Concatenation: Combine two strings into one.
+#### Appending Strings: Add text to the end of an existing string.
+#### Comparing Strings: Check if two strings are equal or determine their lexicographical order.
+#### Substring Creation: Extract a portion of a string.
+#### Character Search: Locate a specific character or substring within a string.
+#### Replacing Text: Modify a string by replacing characters or substrings with new content.
+#### Inserting Characters: Add characters or substrings at a specific position within a string.
+#### Deleting Characters: Remove characters or substrings from a string.
+#### C-Style String Conversion: Convert a std::string to a C-style string (character array).
 ## codes
 ~~~
 #include<iostream>
@@ -230,3 +231,8 @@ int main()
     return 0;
 }
 ~~~
+## OUTPUT-
+![](https://github.com/SunidhiChoubey/a-s/blob/main/Screenshot%202024-08-12%20125945.png)
+![](https://github.com/SunidhiChoubey/a-s/blob/main/Screenshot%202024-08-12%20130121.png)
+## CONCLUSION
+we learnt how to implement strings and its operation
